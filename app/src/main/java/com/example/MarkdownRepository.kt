@@ -1,10 +1,8 @@
-package com.example.data
+package com.example
 
 import android.content.Context
 import android.net.Uri
 import android.provider.OpenableColumns
-import com.example.parser.MarkdownBlock
-import com.example.parser.MarkdownParser
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package com.example.parser
+package com.example
 
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle

@@ -1,4 +1,4 @@
-package com.example.ui
+package com.example
 
 import android.content.Context
 import android.speech.tts.TextToSpeech
@@ -40,10 +40,6 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.data.MarkdownDocument
-import com.example.parser.MarkdownBlock
-import com.example.parser.MarkdownParser
-import com.example.parser.TaskItem
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch

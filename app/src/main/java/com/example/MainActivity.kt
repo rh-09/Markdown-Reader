@@ -22,14 +22,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.data.AppDatabase
-import com.example.data.MarkdownRepository
-import com.example.ui.AppScreen
-import com.example.ui.LibraryScreen
-import com.example.ui.MarkdownViewModel
-import com.example.ui.ReaderScreen
-import com.example.ui.theme.MyApplicationTheme
-
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

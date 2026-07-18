@@ -1,15 +1,10 @@
-package com.example.ui
+package com.example
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.data.AppDatabase
-import com.example.data.MarkdownDocument
-import com.example.data.MarkdownRepository
-import com.example.parser.MarkdownBlock
-import com.example.parser.MarkdownParser
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

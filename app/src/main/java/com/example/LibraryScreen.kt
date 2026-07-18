@@ -1,4 +1,4 @@
-package com.example.ui
+package com.example
 
 import android.content.Context
 import android.net.Uri
@@ -32,7 +32,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.data.MarkdownDocument
 import java.text.SimpleDateFormat
 import java.util.*
 
