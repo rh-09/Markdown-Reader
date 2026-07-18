@@ -1,0 +1,6 @@
+{
+  "name": "Markdown Reader",
+  "description": "A beautiful, feature-rich, and modern minimalistic offline Markdown file reader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

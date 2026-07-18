@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer shadow or glow for depth -->
+    <path
+        android:fillColor="#11000000"
+        android:pathData="M 54,78 C 35,78 20,72 20,72 L 20,36 C 20,36 35,42 54,42 C 73,42 88,36 88,36 L 88,72 C 88,72 73,78 54,78 Z" />
+
+    <!-- Book Spine / Hardcover back shadow -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M 22,70 C 33,70 45,74 54,74 C 63,74 75,70 86,70 L 86,73 C 75,73 63,77 54,77 C 45,77 33,73 22,73 Z" />
+
+    <!-- Left Page Base -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M 54,71 C 44,71 33,67 22,67 L 22,31 C 33,31 44,35 54,35 Z" />
+
+    <!-- Right Page Base (slightly darker shade for 3D fold lighting) -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M 54,71 C 64,71 75,67 86,67 L 86,31 C 75,31 64,35 54,35 Z" />
+
+    <!-- Left Page Accent lines (representing text) -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 28,40 H 48 M 28,47 H 45 M 28,54 H 49 M 28,61 H 40" />
+
+    <!-- Right Page Accent lines (representing text) -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 60,40 H 80 M 63,47 H 80 M 59,54 H 80 M 68,61 H 80" />
+
+    <!-- Center Book Crease / Bookmark Ribbon -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 53,33 H 55 V 74 L 54,72 L 53,74 Z" />
+
+</vector>
